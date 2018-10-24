@@ -1,0 +1,9 @@
+group 'learn'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile project(':ch1_springing_into_action')
+}
+
+
+
