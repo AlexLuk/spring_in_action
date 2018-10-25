@@ -1,13 +1,13 @@
-package soundsystem;
+package soundsystem.model.disk;
 
 import org.springframework.stereotype.Component;
 
 @Component
 public class SgtPeppers implements CompactDisk {
     @Override
-    public void play() {
+    public String play() {
         String title = "Sgt. Pepper's Lonely Hearts Club Band";
         String artist = "The Beatles";
-        System.out.println(String.format("Playing '%s' by artist '%s'", title, artist));
+        return String.format("Playing '%s' by artist '%s'", title, artist);
     }
 }
