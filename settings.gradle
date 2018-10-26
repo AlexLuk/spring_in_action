@@ -1,4 +1,5 @@
 rootProject.name = 'spring_in_action'
 include 'ch1_springing_into_action'
 include 'ch2_wiring_beans'
+include 'ch3_advanced_wiring'
 
